@@ -21,12 +21,12 @@
         <snapshotRepository>
             <id>alipay-snapshot</id>
             <name>alipay-snapshot</name>
-            <url>https://artifacts.cloud.alipay.com/artifactory/repositories/600022/maven-snapshot/</url>
+            <url>https://artifacts.cloud.alipay.com/artifactory/repositories/2088542623516093/maven-snapshot/</url>
         </snapshotRepository>
         <repository>
             <id>alipay-release</id>
             <name>alipay-release</name>
-            <url>https://artifacts.cloud.alipay.com/artifactory/repositories/600022/maven-release/</url>
+            <url>https://artifacts.cloud.alipay.com/artifactory/repositories/2088542623516093/maven-release/</url>
         </repository>
     </distributionManagement>
 
