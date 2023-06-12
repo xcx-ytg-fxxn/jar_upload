@@ -36,6 +36,14 @@
     <profiles>
         <profile>
             <id>dev</id>
+            <properties>
+              <altSnapshotDeploymentRepository>
+                alipay-snapshot::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-snapshot/
+              </altSnapshotDeploymentRepository>
+              <altReleaseDeploymentRepository>
+                alipay-release::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-release/
+              </altReleaseDeploymentRepository>
+						</properties>
             <repositories>
                 <repository>
                     <id>alipay-snapshot</id>
@@ -45,7 +53,7 @@
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
-                    <url>https://artifacts.cloud.alipay.com/artifactory/repositories/{tenant}/maven-snapshot/</url>
+                    <url>https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-snapshot/</url>
                 </repository>
                 <repository>
                     <id>alipay-release</id>
@@ -55,7 +63,7 @@
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <url>https://artifacts.cloud.alipay.com/artifactory/repositories/{tenant}/maven-release/</url>
+                    <url>https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-release/</url>
                 </repository>
             </repositories>
             <pluginRepositories>
