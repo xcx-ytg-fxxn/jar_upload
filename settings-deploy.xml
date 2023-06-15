@@ -36,14 +36,6 @@
     <profiles>
         <profile>
             <id>dev</id>
-            <properties>
-              <altSnapshotDeploymentRepository>
-                alipay-snapshot::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-snapshot/
-              </altSnapshotDeploymentRepository>
-              <altReleaseDeploymentRepository>
-                alipay-release::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-release/
-              </altReleaseDeploymentRepository>
-						</properties>
             <repositories>
                 <repository>
                     <id>alipay-snapshot</id>
