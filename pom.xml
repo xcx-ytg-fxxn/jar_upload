@@ -17,19 +17,6 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>alipay-snapshot</id>
-            <name>alipay-snapshot</name>
-            <url>https://artifacts.cloud.alipay.com/artifactory/repositories/2088542623516093/maven-snapshot/</url>
-        </snapshotRepository>
-        <repository>
-            <id>alipay-release</id>
-            <name>alipay-release</name>
-            <url>https://artifacts.cloud.alipay.com/artifactory/repositories/2088542623516093/maven-release/</url>
-        </repository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
