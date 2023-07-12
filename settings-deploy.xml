@@ -10,8 +10,8 @@
     <servers>
         <server>
             <id>alipay-snapshot</id>
-            <username>${username}</username>
-            <password>${userpassword}</password>
+            <username>2088542625155540</username>
+            <password>b6bceb40bbd449f185743b2dfdb9f0e6</password>
             <configuration>
                 <httpConfiguration>
                     <get>
@@ -22,8 +22,8 @@
         </server>
         <server>
             <id>alipay-release</id>
-            <username>${username}</username>
-            <password>${userpassword}</password>
+            <username>2088542625155540</username>
+            <password>b6bceb40bbd449f185743b2dfdb9f0e6</password>
             <configuration>
                 <httpConfiguration>
                     <get>
@@ -38,10 +38,10 @@
             <id>dev</id>
             <properties>
               <altSnapshotDeploymentRepository>
-                alipay-snapshot::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-snapshot/
+                alipay-snapshot::default::https://tartifacts.run.alipay.net/artifactory/repositories/2088542623516093/maven-snapshot/
               </altSnapshotDeploymentRepository>
               <altReleaseDeploymentRepository>
-                alipay-release::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-release/
+                alipay-release::default::https://tartifacts.run.alipay.net/artifactory/repositories/2088542623516093/maven-release/
               </altReleaseDeploymentRepository>
 						</properties>
             <repositories>
@@ -53,7 +53,7 @@
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
-                    <url>https://tartifacts.run.alipay.net/artifactory/repositories/${tenant}/maven-snapshot/</url>
+                    <url>https://tartifacts.run.alipay.net/artifactory/repositories/2088542623516093/maven-snapshot/</url>
                 </repository>
                 <repository>
                     <id>alipay-release</id>
@@ -63,7 +63,7 @@
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <url>https://tartifacts.run.alipay.net/artifactory/repositories/${tenant}/maven-release/</url>
+                    <url>https://tartifacts.run.alipay.net/artifactory/repositories/2088542623516093/maven-release/</url>
                 </repository>
             </repositories>
             <pluginRepositories>
