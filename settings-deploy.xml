@@ -38,10 +38,14 @@
             <id>dev</id>
             <properties>
               <altSnapshotDeploymentRepository>
-                alipay-snapshot::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-snapshot/
+<!--                alipay-snapshot::default::https://tartifacts.run.alipay.net/artifactory/repositories/2088642830872691/maven-snapshot/-->
+<!--                alipay-snapshot::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-snapshot/-->
+                  alipay-snapshot::default::https://tartifacts.run.alipay.net/artifactory/repositories/${tenant}/maven-snapshot/
               </altSnapshotDeploymentRepository>
               <altReleaseDeploymentRepository>
-                alipay-release::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-release/
+<!--                alipay-release::default::https://tartifacts.run.alipay.net/artifactory/repositories/2088642830872691/maven-release/-->
+<!--                alipay-release::default::https://artifacts.cloud.alipay.com/artifactory/repositories/${tenant}/maven-release/-->
+                  alipay-release::default::https://tartifacts.run.alipay.net/artifactory/repositories/${tenant}/maven-release/
               </altReleaseDeploymentRepository>
 						</properties>
             <repositories>
